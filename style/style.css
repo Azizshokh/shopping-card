@@ -1,0 +1,64 @@
+
+body { 
+    background: no-repeat url("../img/fon.jpg");
+    background-size: cover;   
+    
+}
+
+img {
+    width: 500px;
+    height: 350px;
+}
+ section {
+     background-color:white ;
+     width: 900px;
+     height: 500px;     
+     border: 1px solid white ;
+     text-align: left;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     border-radius: 55px;
+
+ }
+
+ .bir {
+     float: left;
+     padding:30px;
+     
+    
+ }
+
+ .name, .narx, p {
+        
+     text-transform: uppercase;
+     color: #316FAE ;
+ }
+
+ button {
+     text-transform: uppercase;
+     background-color:#0066DD; 
+     color: white;
+     width: 300px;
+     height: 50px;
+     border-radius: 15px;
+     border-color:#0066DD ;
+ }
+ .bir, .name, h1, button, .narx, .about {
+     text-transform: uppercase;
+     font-weight: bold;
+ }
+ .about{
+     text-transform: none;
+     color: black;
+ }
+ 
+ td {
+     border: 1px solid #1D65B7;
+     color: #1D65B7;
+     width: 55px;
+     height: 30px;
+     text-align: center;  
+ }
+ 
